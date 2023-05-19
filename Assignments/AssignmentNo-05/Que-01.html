@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>css</title>
+    <style>
+        table {
+            height: 400px;
+            width: 800px;
+            text-align: center;
+        }
+
+        tr,
+        td {
+            border-radius: 3px;
+            background-color: #CBCDCB;
+        }
+
+        td:hover {
+            background-color: teal;
+        }
+
+        #one {
+            background-color: red;
+        }
+
+        #two {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table border="2px solid black">
+        <tr>
+            <td colspan="11" height="35px" style="border-radius:0px"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="10">
+                <input type="text" value="0" style="height: 100%;width: 100%;">
+            </td>
+        </tr>
+        <tr>
+            <td>mod</td>
+            <td colspan="5" style="text-align:left; border-radius:0px;"><input type="radio" id="deg" name="unit"
+                    value="deg">
+                <lable for="deg">deg</lable>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="rad" name="unit" value="rad">
+                <lable for="rad">rad</lable>
+            </td>
+            <td>MC</td>
+            <td>MR</td>
+            <td>MS</td>
+            <td>M+</td>
+            <td>M-</td>
+        </tr>
+        <tr>
+            <td>sinh</td>
+            <td>cosh</td>
+            <td>tanh</td>
+            <td>Exp</td>
+            <td>(</td>
+            <td>)</td>
+            <td colspan="2" id="one">⬅</td>
+            <td id="one">C</td>
+            <td id="one">+/-</td>
+            <td>√</td>
+        </tr>
+        <tr>
+            <td>sinh<sup>-1</sup></td>
+            <td>cosh<sup>-1</sup></td>
+            <td>tanh<sup>-1</sup></td>
+            <td>log<sub>2</sub>x</td>
+            <td>In</td>
+            <td>Log</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>/</td>
+            <td>%</td>
+        </tr>
+        <tr>
+            <td>π</td>
+            <td>e</td>
+            <td>n!</td>
+            <td>log<sub>y</sub>x</td>
+            <td>e<sup>x</sup></td>
+            <td>10<sup>x</sup></td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>*</td>
+            <td>1/x</td>
+        </tr>
+        <tr>
+            <td>sin</td>
+            <td>cos</td>
+            <td>tan</td>
+            <td>x<sup>y</sup></td>
+            <td>x<sup>3</sup></td>
+            <td>x<sup>2</sup></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>-</td>
+            <td rowspan="2" id="two">=</td>
+        </tr>
+        <tr>
+            <td>sin<sup>-1</sup></td>
+            <td>cos<sup>-1</sup></td>
+            <td>tan<sup>-1</sup></td>
+            <td><sup>y</sup>√</td>
+            <td><sup>s3</sup>√</td>
+            <td>|x|</td>
+            <td colspan="2">0</td>
+            <td>.</td>
+            <td>+</td>
+
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
